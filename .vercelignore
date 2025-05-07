@@ -1,9 +1,6 @@
-public/cuckal/*.wav
-public/cuckal/*.m4a
-public/cuckal/*.mp3
+# Ignore music directory
 public/music/**
-public/*.wav
-public/*.m4a
-public/*.mp3
+
+# Ignore all MP4 files except evolve.mp4
 public/*.mp4
 !public/evolve.mp4 
