@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const SlidingMerch = () => {
-  const items = ['cuckhood.png', 'cuckt.png'];
+  const items = ['cuckhood.png', 'cucklong.png', 'cuckt.png'];
   
   return (
     <div className="w-screen -mx-4 mt-6 overflow-hidden bg-black/20">
