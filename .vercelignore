@@ -1,4 +1,6 @@
-public/cuckal/**
+public/cuckal/*.wav
+public/cuckal/*.m4a
+public/cuckal/*.mp3
 public/music/**
 public/*.mp4
 public/*.wav
