@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #FFFFFF;
+  --accent: #FF0000;
+  --accent-hover: #FF1111;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #FFFFFF;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+@layer components {
+  .btn {
+    @apply bg-[#FF0000] text-white tracking-[0.15em] px-8 py-3 transition-all duration-300 hover:scale-105 active:scale-95;
+  }
+  
+  .version {
+    @apply font-mono text-white/50 text-sm;
+  }
+  
+  .headline {
+    @apply font-sans tracking-[0.15em] text-[#FF0000] transition-all duration-300 hover:text-[#FF1111];
+  }
+}

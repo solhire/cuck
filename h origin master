@@ -1,0 +1,5 @@
+[33mcommit 33090d3cd8a119979c08c97e268d52cb80c141ba[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: solhire <solhire@proton.me>
+Date:   Mon Apr 14 02:57:06 2025 -0500
+
+    feat: improve mobile responsiveness - Update viewport settings, adjust text and image sizes, optimize layout for mobile devices

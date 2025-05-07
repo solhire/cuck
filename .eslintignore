@@ -1,0 +1,11 @@
+# Generated files
+src/generated/**/*
+**/*.generated.*
+prisma/**/*
+
+# Build and dependency files
+node_modules
+.next
+out
+build
+dist 

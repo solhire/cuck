@@ -1,0 +1,10 @@
+[33m34bb779[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m Fix typo: TEITTER to TWITTER
+[33m7d07032[m Add 'NO MORE TEITTER FINGERS' text to site
+[33mdabcd16[m Add copyright back to bottom of site
+[33m8145c47[m Add existed.png image to the right of hoodie
+[33m2567583[m Remove copyright from bottom of site
+[33m6ad1ea2[m Fix case sensitivity issue with WWHOODIE.png filename
+[33mb704dee[m Add WWHOODIE.PNG image to the right of hat.mp4 and fix positioning
+[33me3035fb[m Fix ESLint error: remove unused Image import from layout.tsx
+[33mb1538d9[m Remove YE REICH player and replace WWWINDBREAKER with WW3 CAP
+[33ma0163d8[m Fix ESLint error: remove unused Link import

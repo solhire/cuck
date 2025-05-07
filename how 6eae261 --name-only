@@ -1,0 +1,3 @@
+[33m1889b06[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m Revert "Add image replacement features and error handling"
+[33me2b72a5[m Replace a.png with a2.png references throughout the application
+[33m6eae261[m Add image replacement features and error handling
