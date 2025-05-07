@@ -13,6 +13,8 @@ import GlitchyInput from './components/GlitchyInput';
 import MouseTracker from './components/MouseTracker';
 import AutoTypingText from './components/AutoTypingText';
 import GlitchyTitle from './components/GlitchyTitle';
+import SlidingMerch from './components/SlidingMerch';
+import EvolveVideo from './components/EvolveVideo';
 
 // Get messages from the API
 async function getMessages() {
@@ -159,19 +161,7 @@ export default async function Home() {
             className="text-white/90 font-mono text-base tracking-wider"
           />
         </div>
-        {/* Cuckmerch items */}
-        <div className="flex justify-center gap-6 mt-6">
-          {['cuckhood.png', 'cucklong.png', 'cuckt.png'].map((item) => (
-            <div key={item} className="relative w-32 h-32 border-4 border-red-500 rounded-lg p-2">
-              <Image 
-                src={`/cuckmerch/${item}`} 
-                alt={item} 
-                fill
-                className="object-contain"
-              />
-            </div>
-          ))}
-        </div>
+        <SlidingMerch />
         <GlitchyInput />
       </div>
       
@@ -182,22 +172,23 @@ export default async function Home() {
       
       {/* CUCK Album Player */}
       <div className="w-full mt-8">
+        <EvolveVideo />
         <CuckAlbumPlayer />
       </div>
       
-      {/* "THE WARPATH BEGINS" text with ye22 image below - right side */}
+      {/* CUK22 image on right side */}
       <div className="absolute top-4 right-2 sm:top-6 sm:right-6 flex flex-col items-end">
         <div className="relative w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32">
           <Image 
-            src="/cuck.png" 
-            alt="CUCK"
+            src="/cuk22.png" 
+            alt="CUK22"
             fill
             className="object-contain"
             priority
           />
         </div>
       </div>
-
+      
       {/* ye4 image on left side */}
       <div className="absolute top-4 left-2 sm:top-6 sm:left-6 flex flex-col items-start">
         <div className="relative w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32">

@@ -69,6 +69,10 @@ module.exports = {
             transform: 'translate(0)',
             textShadow: '0 0 0 #ff0000'
           },
+        },
+        slide: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' }
         }
       },
       animation: {
@@ -79,6 +83,7 @@ module.exports = {
         'glitch': 'glitch 0.3s cubic-bezier(.25,.46,.45,.94) both infinite',
         'pulse': 'pulse 1.5s ease-in-out infinite',
         'text-glitch': 'text-glitch 0.3s cubic-bezier(.25,.46,.45,.94) both infinite',
+        slide: 'slide 5s linear infinite'
       },
     },
   },

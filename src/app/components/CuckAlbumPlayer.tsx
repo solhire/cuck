@@ -71,13 +71,16 @@ const CuckAlbumPlayer = () => {
     <div className="w-full max-w-xl mx-auto bg-black/20 backdrop-blur-sm rounded-xl overflow-hidden p-4 border border-white/10">
       <div className="relative">
         {/* CUCK album cover */}
-        <div className="relative w-24 h-24 mx-auto mb-2 drop-shadow-md">
+        <div className="relative w-32 h-32 mx-auto mb-2 drop-shadow-md">
           <Image 
             src="/cuckal/cuckal.png" 
             alt="CUCK Album" 
             fill
             className="object-contain"
           />
+        </div>
+        <div className="text-center text-white/70 font-mono text-sm tracking-wider mb-4">
+          5/10
         </div>
         
         <div className="space-y-2">
