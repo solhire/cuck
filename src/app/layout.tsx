@@ -16,30 +16,30 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CUCK",
-  description: "WW3 DELUXE - Embrace what's coming. Let there be light.",
-  metadataBase: new URL('https://bully2025.org'),
+  title: "CUCK 2025",
+  description: "Official website for CUCK 2025",
+  metadataBase: new URL('https://cuck2025.com'),
   openGraph: {
-    title: "WW3 | BULLY2025",
-    description: "WW3 DELUXE - Embrace what's coming. Let there be light.",
-    url: 'https://bully2025.org',
-    siteName: 'BULLY2025',
-    locale: 'en_US',
-    type: 'website',
+    title: "CUCK 2025",
+    description: "Official website for CUCK 2025",
+    url: 'https://cuck2025.com',
+    siteName: 'CUCK 2025',
     images: [
       {
-        url: '/coverdraft.png',
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'WW3',
-      }
+        alt: 'CUCK 2025',
+      },
     ],
+    locale: 'en_US',
+    type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "WW3 | BULLY2025",
-    description: "WW3 DELUXE - Embrace what's coming. Let there be light.",
-    images: ['/coverdraft.png'],
+    title: "CUCK 2025",
+    description: "Official website for CUCK 2025",
+    images: ['/og-image.jpg'],
   },
   icons: {
     icon: [

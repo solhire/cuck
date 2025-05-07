@@ -17,12 +17,13 @@ export function middleware(request: NextRequest) {
   // For API routes, handle CORS
   if (request.nextUrl.pathname.startsWith('/api/')) {
     // Allow CORS from localhost in development and from our production domain
-    const allowedOrigins = ['https://bully2025.org', 'http://localhost:3000'];
+    const allowedOrigins = ['https://cuck2025.com', 'http://localhost:3000'];
     
     if (allowedOrigins.includes(origin)) {
       response.headers.set('Access-Control-Allow-Origin', origin);
-      response.headers.set('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+      response.headers.set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
       response.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+      response.headers.set('Access-Control-Allow-Credentials', 'true');
       response.headers.set('Access-Control-Max-Age', '86400');
     }
     

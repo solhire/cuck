@@ -1,5 +1,5 @@
 @echo off
-echo Starting build for bully2025.org...
+echo Starting build for cuck2025.com...
 
 :: Install dependencies
 echo Installing dependencies...
@@ -12,6 +12,9 @@ call npm run build
 :: Copy environment files
 echo Setting up environment files...
 copy .env.production .env.local
+
+REM Deploy to Vercel
+call vercel --prod
 
 echo Build complete.
 echo Deploy the 'out' directory to your hosting provider.

@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://bully2025.org/sitemap.xml 
+Sitemap: https://cuck2025.com/sitemap.xml 

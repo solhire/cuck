@@ -1,16 +1,17 @@
 #!/bin/bash
 
-# Build script for deploying to production
+# Build and deploy script
+echo "Starting build for cuck2025.com..."
 
-echo "Starting build for bully2025.org..."
+# Build the project
+npm run build
+
+# Deploy to Vercel
+vercel --prod
 
 # Install dependencies
 echo "Installing dependencies..."
 npm install
-
-# Create production build
-echo "Creating production build..."
-npm run build
 
 # Copy environment files
 echo "Setting up environment files..."
