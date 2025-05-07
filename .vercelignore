@@ -2,7 +2,8 @@ public/cuckal/*.wav
 public/cuckal/*.m4a
 public/cuckal/*.mp3
 public/music/**
-public/*.mp4
 public/*.wav
 public/*.m4a
-public/*.mp3 
+public/*.mp3
+public/*.mp4
+!public/evolve.mp4 
