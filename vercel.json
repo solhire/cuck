@@ -1,11 +1,5 @@
 {
   "buildCommand": "prisma generate && next build",
-  "functions": {
-    "api/update-images.js": {
-      "memory": 1024,
-      "maxDuration": 10
-    }
-  },
   "headers": [
     {
       "source": "/public/(.*)",
