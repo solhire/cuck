@@ -73,6 +73,10 @@ module.exports = {
         slide: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-50%)' }
+        },
+        'spin-slow': {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' }
         }
       },
       animation: {
@@ -83,7 +87,8 @@ module.exports = {
         'glitch': 'glitch 0.3s cubic-bezier(.25,.46,.45,.94) both infinite',
         'pulse': 'pulse 1.5s ease-in-out infinite',
         'text-glitch': 'text-glitch 0.3s cubic-bezier(.25,.46,.45,.94) both infinite',
-        slide: 'slide 5s linear infinite'
+        slide: 'slide 5s linear infinite',
+        'spin-slow': 'spin-slow 3s linear infinite'
       },
     },
   },
