@@ -60,7 +60,7 @@ async function getMessages() {
       ww3Deluxe: "WW3 DELUXE",
       redTitle: "RED",
       pumpFunLink: "PUMP.FUN/PROFILE/CUCK",
-      caAddress: "D351aeeC5XKniB99eEEd8aTLjXBcURWRoNyD9ikzpump",
+      caAddress: "BycYc1T1BnZsJVyyEqpkjrrDVbUtXqQ6jEiyeUTGpump",
       bullyV1: "BULLY V1",
       currentDate: "4.12",
       dDayText: "D-DAY"
@@ -188,7 +188,7 @@ export default async function Home() {
           />
         </div>
       </div>
-      
+
       {/* ye4 image on left side */}
       <div className="absolute top-16 left-2 sm:top-6 sm:left-6 flex flex-col items-start">
         <div className="relative w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32">
